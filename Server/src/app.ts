@@ -121,7 +121,7 @@ io.on('connection', (socket) => {
   });
 });
 
-const port = 4000; // Defina a porta em que a API será executada
+const port = 3001; // Defina a porta em que a API será executada
 server.listen(port, () => {
   console.log(`Servidor WebSocket em execução na porta ${port}.`);
 });

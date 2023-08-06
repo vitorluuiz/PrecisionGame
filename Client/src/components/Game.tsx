@@ -7,7 +7,7 @@ import ArrowDown from '../assets/arrow-down.svg';
 import ArrowBack from '../assets/arrow-back.svg';
 import Bolt from '../assets/bolt.svg';
 
-const serverURL = 'http://localhost:4000'; // URL do servidor WebSocket
+const serverURL = 'https://precision-server.vercel.app/3001'; // URL do servidor WebSocket
 
 interface Player {
   id: string;
