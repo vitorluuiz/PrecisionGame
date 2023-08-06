@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #265C4B;
+  --sec: #589A8D;
+  --text: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: var(--main);
+  color: var(--text);
+  margin-bottom: 2rem;
+}
+
+body {
+  background-color: var(--sec);
+}
+
+h2{
+  margin-bottom: 1rem;
+}
+
+input{
+  padding: 0.4rem;
+}
+
+button{
+  border: unset;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text);
+  background-color: var(--main);
+  padding: 0.75rem 1rem;
+}
+
+div.support-game {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside#support-players {
+  width: 33%;
+}
+
+form.support-login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form.support-login label {
+  display: flex;
+  flex-direction: column;
+}
+
+section.players-list{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+article.player{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: var(--main);
+  color: var(--text);
+}
+
+article.player span{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+main {
+  width: 25%;
+  height: calc(100vh - 80px);
+}
+
+main form.guess-support{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
