@@ -4,10 +4,9 @@ import io, { Socket } from 'socket.io-client';
 import Star from '../assets/star.svg';
 import HalfStar from '../assets/half-star.svg';
 import ArrowDown from '../assets/arrow-down.svg';
-import ArrowBack from '../assets/arrow-back.svg';
-import Bolt from '../assets/bolt.svg';
 
-const serverURL = 'https://precision-server.vercel.app/3001'; // URL do servidor WebSocket
+const serverURL = 'https://precision-server.vercel.app/'; // URL do servidor WebSocket
+// const serverURL = 'http://localhost:3001'; // URL do servidor WebSocket
 
 interface Player {
   id: string;

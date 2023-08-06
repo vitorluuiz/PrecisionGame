@@ -6,7 +6,9 @@ const app = express();
 const server = http.createServer(app);
 const io = new WebSocketServer(server, {
   cors: {
-    origin: '*',
+    origin: 'https://precision-game.vercel.app/',
+    methods: ['GET', 'POST'],
+    credentials: true,
   },
 });
 
